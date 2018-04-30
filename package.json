@@ -1,0 +1,20 @@
+{
+  "name": "speech-to-text-stream",
+  "version": "1.0.1",
+  "description": "Record and recognize, and stream speech transcripts through the WebSpeech API.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard --fix src/** && npm run test-browser",
+    "build": "browserify src/index.js -s SpeechToTextStream -o dist/speech-to-text-stream.js",
+    "test-browser": "zuul --local -- test/*.js"
+  },
+  "author": "Thomas Mullen",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  }
+}
