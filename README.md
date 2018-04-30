@@ -2,7 +2,7 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Simple text-stream wrapper around the WebSpeech API for Google Chrome.
+Simple text-stream wrapper around the WebSpeech SpeechRecognizer API for Google Chrome.
 
 ## Usage
 
@@ -25,3 +25,4 @@ recognizer.on('speechend', function (token) {
   // speech has stopped or paused
 })
 ```
+
