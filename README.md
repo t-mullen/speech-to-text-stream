@@ -4,6 +4,8 @@
 
 Simple text-stream wrapper around the WebSpeech SpeechRecognizer API for Google Chrome.
 
+Also see [text-to-speech-stream](https://github.com/RationalCoding/text-to-speech-stream).
+
 ## Usage
 
 ```javascript
